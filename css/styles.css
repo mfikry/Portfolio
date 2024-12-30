@@ -79,7 +79,10 @@
     scroll-behavior: smooth;
   }
 }
-
+#pmjLogo {
+  transition: transform 0.3s ease; /* Animasi smooth */
+  transform: scale(1); /* Skala normal */
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
